@@ -38,7 +38,7 @@ if "groq_client" not in st.session_state:
     st.session_state.groq_client = client
 
     st.session_state.messages = [
-        {"role": "assistant", "content": "你好，我是導覽員小北，請隨時發問。"}
+        {"role": "assistant", "content": "你好，我是導覽員SB謝榆捷，請隨時發問。"}
     ]
 
 # 顯示歷史紀錄
